@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "device-manager": "device-manager-c5b89",
+    "default": "device-manager-c5b89"
+  }
+}
