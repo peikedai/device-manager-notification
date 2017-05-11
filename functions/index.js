@@ -16,7 +16,7 @@ exports.sendRequestNotification = functions.database.ref('/devices/{serial_numbe
         const payload = {
             notification: {
                 title: 'You have a new request',
-                body: requestedBy + ' requested this device'
+                body: requestedBy
             }
         };
         const token = tokenSnapshot.val().token;
